@@ -1,0 +1,8 @@
+{
+ "method": "tsne",
+ "metric": "cosine",
+ "perplexity": 30,
+ "n_neighbors": 15,
+ "min_dist": 0.1,
+ "translation_shown": 32
+}

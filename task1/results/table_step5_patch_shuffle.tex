@@ -1,0 +1,14 @@
+\begin{tabular}{llrrrr}
+\toprule
+classifier & condition & acc & acc_change & consistency & mean_max_conf \\
+\midrule
+resnet50_head & clean & 0.978 & 0.000 & 1.000 & 0.972 \\
+resnet50_head & patch & 0.884 & -0.094 & 0.900 & 0.924 \\
+vit_b16_head & clean & 0.974 & 0.000 & 1.000 & 0.964 \\
+vit_b16_head & patch & 0.902 & -0.072 & 0.912 & 0.896 \\
+clip_head & clean & 0.984 & 0.000 & 1.000 & 0.335 \\
+clip_head & patch & 0.834 & -0.150 & 0.838 & 0.232 \\
+clip_zeroshot & clean & 0.978 & 0.000 & 1.000 & 0.955 \\
+clip_zeroshot & patch & 0.820 & -0.158 & 0.824 & 0.822 \\
+\bottomrule
+\end{tabular}

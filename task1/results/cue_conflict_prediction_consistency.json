@@ -1,0 +1,6 @@
+{
+ "resnet50_head": 0.335,
+ "vit_b16_head": 0.54,
+ "clip_head": 0.595,
+ "clip_zeroshot": 0.62
+}

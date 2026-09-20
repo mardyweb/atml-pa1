@@ -1,0 +1,5 @@
+classifier,n_shape,n_texture,n_other,n_total,shape_bias_pct,coverage_pct
+resnet50_head,67,45,88,200,59.82142857142857,56.0
+vit_b16_head,109,26,65,200,80.74074074074075,67.5
+clip_head,121,19,60,200,86.42857142857143,70.0
+clip_zeroshot,125,26,49,200,82.78145695364239,75.5

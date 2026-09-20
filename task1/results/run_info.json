@@ -1,0 +1,69 @@
+{
+ "config": {
+  "seed": 6304,
+  "image_size": 224,
+  "val_fraction": 0.2,
+  "eval_per_class": 50,
+  "clip_prompt": "a photo of a {}.",
+  "head": {
+   "max_epochs": 50,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "patience": 5,
+   "batch_size": 64
+  },
+  "translation_shifts": [
+   0,
+   8,
+   16,
+   32
+  ],
+  "patch_grid": 4,
+  "dataset": "stl10",
+  "hue_degrees": 180,
+  "cue": {
+   "pairs": [
+    [
+     "cat",
+     "car"
+    ],
+    [
+     "dog",
+     "truck"
+    ],
+    [
+     "horse",
+     "ship"
+    ],
+    [
+     "deer",
+     "airplane"
+    ],
+    [
+     "bird",
+     "monkey"
+    ]
+   ],
+   "alpha": 1.0,
+   "candidates_per_direction": 30,
+   "min_total": 200,
+   "rejection_rule": "Reject a stylized image if (a) the object outline can not be identified by eye,  (b) the image is mostly flat colour or the texture is not visible, or (c) it looks the same as the content image."
+  },
+  "projection": {
+   "method": "tsne",
+   "metric": "cosine",
+   "perplexity": 30,
+   "n_neighbors": 15,
+   "min_dist": 0.1,
+   "translation_shown": 32
+  }
+ },
+ "device": "cuda",
+ "versions": {
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "open_clip": "3.3.0",
+  "sklearn": "1.6.1",
+  "numpy": "2.1.3"
+ }
+}
