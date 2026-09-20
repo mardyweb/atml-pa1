@@ -1,0 +1,106 @@
+[
+ {
+  "id": 16,
+  "kind": "all models follow shape",
+  "shape": "cat",
+  "texture": "car",
+  "resnet50_head": {
+   "pred": "cat",
+   "kind": "shape",
+   "conf": 0.8510422110557556
+  },
+  "vit_b16_head": {
+   "pred": "cat",
+   "kind": "shape",
+   "conf": 0.9845415353775024
+  },
+  "clip_head": {
+   "pred": "cat",
+   "kind": "shape",
+   "conf": 0.18499164283275604
+  },
+  "clip_zeroshot": {
+   "pred": "cat",
+   "kind": "shape",
+   "conf": 0.5419593453407288
+  }
+ },
+ {
+  "id": 2019,
+  "kind": "all models follow texture",
+  "shape": "dog",
+  "texture": "truck",
+  "resnet50_head": {
+   "pred": "truck",
+   "kind": "texture",
+   "conf": 0.9587918519973755
+  },
+  "vit_b16_head": {
+   "pred": "truck",
+   "kind": "texture",
+   "conf": 0.2775971293449402
+  },
+  "clip_head": {
+   "pred": "truck",
+   "kind": "texture",
+   "conf": 0.128692626953125
+  },
+  "clip_zeroshot": {
+   "pred": "truck",
+   "kind": "texture",
+   "conf": 0.33246278762817383
+  }
+ },
+ {
+  "id": 10,
+  "kind": "models disagree",
+  "shape": "cat",
+  "texture": "car",
+  "resnet50_head": {
+   "pred": "bird",
+   "kind": "other",
+   "conf": 0.7751373052597046
+  },
+  "vit_b16_head": {
+   "pred": "cat",
+   "kind": "shape",
+   "conf": 0.3300044536590576
+  },
+  "clip_head": {
+   "pred": "cat",
+   "kind": "shape",
+   "conf": 0.12929333746433258
+  },
+  "clip_zeroshot": {
+   "pred": "car",
+   "kind": "texture",
+   "conf": 0.3548106551170349
+  }
+ },
+ {
+  "id": 15,
+  "kind": "neither class predicted",
+  "shape": "cat",
+  "texture": "car",
+  "resnet50_head": {
+   "pred": "car",
+   "kind": "texture",
+   "conf": 0.5479990839958191
+  },
+  "vit_b16_head": {
+   "pred": "airplane",
+   "kind": "other",
+   "conf": 0.5453853011131287
+  },
+  "clip_head": {
+   "pred": "dog",
+   "kind": "other",
+   "conf": 0.1192275732755661
+  },
+  "clip_zeroshot": {
+   "pred": "car",
+   "kind": "texture",
+   "conf": 0.2993999123573303
+  }
+ }
+]
