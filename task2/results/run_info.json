@@ -1,0 +1,69 @@
+{
+ "config": {
+  "seed": 6304,
+  "sources": [
+   "photo",
+   "art_painting",
+   "cartoon"
+  ],
+  "target": "sketch",
+  "val_fraction": 0.2,
+  "resize": 256,
+  "crop": 224,
+  "per_source_batch": 8,
+  "target_batch": 24,
+  "max_epochs": 30,
+  "patience": 5,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "lambda_mmd": 1.0,
+  "mmd_bandwidth_mults": [
+   0.5,
+   1.0,
+   2.0
+  ],
+  "disc_hidden": 256,
+  "disc_dropout": 0.5,
+  "domain_loss_weight": 1.0,
+  "grl_gamma": 10.0,
+  "separability": {
+   "test_size": 0.3,
+   "C": 1.0
+  },
+  "study_lambdas": [
+   0.1,
+   1.0,
+   10.0
+  ]
+ },
+ "runs": {
+  "source_only": {
+   "method": "source_only"
+  },
+  "dan": {
+   "method": "dan",
+   "lam": 1.0
+  },
+  "dann": {
+   "method": "dann"
+  },
+  "cdan": {
+   "method": "cdan"
+  },
+  "dan_lam0.1": {
+   "method": "dan",
+   "lam": 0.1
+  },
+  "dan_lam10": {
+   "method": "dan",
+   "lam": 10.0
+  }
+ },
+ "device": "cuda",
+ "versions": {
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "sklearn": "1.6.1",
+  "numpy": "2.1.3"
+ }
+}
