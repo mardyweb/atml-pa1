@@ -1,0 +1,162 @@
+[
+ {
+  "group": "near",
+  "unknown_class": "wolf",
+  "predicted": "cat",
+  "score_mls": -12.378687858581543,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": true
+ },
+ {
+  "group": "near",
+  "unknown_class": "camel",
+  "predicted": "deer",
+  "score_mls": -11.883868217468262,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": true
+ },
+ {
+  "group": "near",
+  "unknown_class": "bus",
+  "predicted": "truck",
+  "score_mls": -11.88252067565918,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": true
+ },
+ {
+  "group": "near",
+  "unknown_class": "bus",
+  "predicted": "truck",
+  "score_mls": -11.544912338256836,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "near",
+  "unknown_class": "bus",
+  "predicted": "truck",
+  "score_mls": -11.265219688415527,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "near",
+  "unknown_class": "fox",
+  "predicted": "deer",
+  "score_mls": -11.145464897155762,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": true
+ },
+ {
+  "group": "near",
+  "unknown_class": "tractor",
+  "predicted": "truck",
+  "score_mls": -11.107467651367188,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "near",
+  "unknown_class": "bus",
+  "predicted": "truck",
+  "score_mls": -11.076120376586914,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "near",
+  "unknown_class": "pickup_truck",
+  "predicted": "automobile",
+  "score_mls": -11.005528450012207,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "near",
+  "unknown_class": "bus",
+  "predicted": "truck",
+  "score_mls": -11.005170822143555,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "far",
+  "unknown_class": "sunflower",
+  "predicted": "bird",
+  "score_mls": -11.570448875427246,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": true
+ },
+ {
+  "group": "far",
+  "unknown_class": "sunflower",
+  "predicted": "bird",
+  "score_mls": -11.332047462463379,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "far",
+  "unknown_class": "bowl",
+  "predicted": "automobile",
+  "score_mls": -11.26813793182373,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": true
+ },
+ {
+  "group": "far",
+  "unknown_class": "chair",
+  "predicted": "airplane",
+  "score_mls": -11.068015098571777,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": true
+ },
+ {
+  "group": "far",
+  "unknown_class": "bottle",
+  "predicted": "cat",
+  "score_mls": -10.880605697631836,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": true
+ },
+ {
+  "group": "far",
+  "unknown_class": "mushroom",
+  "predicted": "dog",
+  "score_mls": -10.877828598022461,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "far",
+  "unknown_class": "sunflower",
+  "predicted": "bird",
+  "score_mls": -10.690654754638672,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "far",
+  "unknown_class": "mushroom",
+  "predicted": "frog",
+  "score_mls": -10.64559268951416,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "far",
+  "unknown_class": "sunflower",
+  "predicted": "bird",
+  "score_mls": -10.611260414123535,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ },
+ {
+  "group": "far",
+  "unknown_class": "keyboard",
+  "predicted": "truck",
+  "score_mls": -10.601699829101562,
+  "threshold": -5.792555332183838,
+  "shown_in_figure": false
+ }
+]

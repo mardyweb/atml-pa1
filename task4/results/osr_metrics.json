@@ -1,0 +1,158 @@
+{
+ "csa": {
+  "vanilla": 0.9485999941825867,
+  "gcsc": 0.9506999850273132,
+  "proser": 0.9430000185966492
+ },
+ "metrics": {
+  "vanilla": {
+   "MSP": {
+    "AUROC near": 0.8186573125000001,
+    "AUROC far": 0.8930384375,
+    "AUROC all": 0.855847875,
+    "test acceptance": 0.9511,
+    "near rejection": 0.28,
+    "far rejection": 0.41875,
+    "FPR95 near": 0.72,
+    "FPR95 far": 0.58125,
+    "threshold": 0.18583273887634277
+   },
+   "MLS": {
+    "AUROC near": 0.8039536249999999,
+    "AUROC far": 0.8892211250000001,
+    "AUROC all": 0.846587375,
+    "test acceptance": 0.9485,
+    "near rejection": 0.32875,
+    "far rejection": 0.525,
+    "FPR95 near": 0.67125,
+    "FPR95 far": 0.475,
+    "threshold": -5.792555332183838
+   },
+   "Energy": {
+    "AUROC near": 0.80386475,
+    "AUROC far": 0.8896698749999999,
+    "AUROC all": 0.8467673125,
+    "test acceptance": 0.947,
+    "near rejection": 0.325,
+    "far rejection": 0.5275,
+    "FPR95 near": 0.675,
+    "FPR95 far": 0.4725,
+    "threshold": -6.006481170654297
+   },
+   "Mahalanobis": {
+    "AUROC near": 0.7883240625,
+    "AUROC far": 0.9138137500000001,
+    "AUROC all": 0.85106890625,
+    "test acceptance": 0.9519,
+    "near rejection": 0.26625,
+    "far rejection": 0.50375,
+    "FPR95 near": 0.73375,
+    "FPR95 far": 0.49625,
+    "threshold": 2794.484130859375
+   }
+  },
+  "gcsc": {
+   "MSP": {
+    "AUROC near": 0.833894625,
+    "AUROC far": 0.9138981875,
+    "AUROC all": 0.8738964062499999,
+    "test acceptance": 0.9465,
+    "near rejection": 0.3425,
+    "far rejection": 0.49,
+    "FPR95 near": 0.6575,
+    "FPR95 far": 0.51,
+    "threshold": 0.1754578799009323
+   },
+   "MLS": {
+    "AUROC near": 0.8147168124999999,
+    "AUROC far": 0.9088907500000001,
+    "AUROC all": 0.86180378125,
+    "test acceptance": 0.9461,
+    "near rejection": 0.3775,
+    "far rejection": 0.58375,
+    "FPR95 near": 0.6225,
+    "FPR95 far": 0.41625,
+    "threshold": -6.104886054992676
+   },
+   "Energy": {
+    "AUROC near": 0.81400975,
+    "AUROC far": 0.9087821250000001,
+    "AUROC all": 0.8613959375000001,
+    "test acceptance": 0.9472,
+    "near rejection": 0.3775,
+    "far rejection": 0.58875,
+    "FPR95 near": 0.6225,
+    "FPR95 far": 0.41125,
+    "threshold": -6.287124156951904
+   },
+   "Mahalanobis": {
+    "AUROC near": 0.7889334374999999,
+    "AUROC far": 0.9248387499999999,
+    "AUROC all": 0.85688609375,
+    "test acceptance": 0.9437,
+    "near rejection": 0.295,
+    "far rejection": 0.54375,
+    "FPR95 near": 0.705,
+    "FPR95 far": 0.45625,
+    "threshold": 1913.1785888671875
+   }
+  },
+  "proser": {
+   "MSP": {
+    "AUROC near": 0.808667125,
+    "AUROC far": 0.8813433749999999,
+    "AUROC all": 0.84500525,
+    "test acceptance": 0.9501,
+    "near rejection": 0.26625,
+    "far rejection": 0.38375,
+    "FPR95 near": 0.73375,
+    "FPR95 far": 0.61625,
+    "threshold": 0.21537946164608002
+   },
+   "MLS": {
+    "AUROC near": 0.7948801875,
+    "AUROC far": 0.867869625,
+    "AUROC all": 0.83137490625,
+    "test acceptance": 0.9446,
+    "near rejection": 0.30875,
+    "far rejection": 0.46375,
+    "FPR95 near": 0.69125,
+    "FPR95 far": 0.53625,
+    "threshold": -4.184282302856445
+   },
+   "Energy": {
+    "AUROC near": 0.7948488125000001,
+    "AUROC far": 0.867302,
+    "AUROC all": 0.83107540625,
+    "test acceptance": 0.944,
+    "near rejection": 0.31375,
+    "far rejection": 0.46625,
+    "FPR95 near": 0.68625,
+    "FPR95 far": 0.53375,
+    "threshold": -4.406138896942139
+   },
+   "Mahalanobis": {
+    "AUROC near": 0.7890903125,
+    "AUROC far": 0.9150627499999999,
+    "AUROC all": 0.8520765312499999,
+    "test acceptance": 0.9498,
+    "near rejection": 0.25375,
+    "far rejection": 0.47875,
+    "FPR95 near": 0.74625,
+    "FPR95 far": 0.52125,
+    "threshold": 2622.185302734375
+   },
+   "Placeholder": {
+    "AUROC near": 0.7904050625000001,
+    "AUROC far": 0.873352125,
+    "AUROC all": 0.83187859375,
+    "test acceptance": 0.9478,
+    "near rejection": 0.295,
+    "far rejection": 0.44125,
+    "FPR95 near": 0.705,
+    "FPR95 far": 0.55875,
+    "threshold": 0.2368137240409851
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+score A,score B,"A accepts, B rejects","B accepts, A rejects",both accept
+MSP,Mahalanobis,0.070625,0.035,0.58
+MLS,MSP,0.03625,0.11375,0.536875
+MLS,Mahalanobis,0.066875,0.10875,0.50625
+Energy,MSP,0.050625,0.1275,0.523125
+Energy,MLS,0.014375,0.01375,0.559375
+Energy,Mahalanobis,0.079375,0.120625,0.494375

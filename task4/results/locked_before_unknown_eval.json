@@ -1,0 +1,19 @@
+{
+ "locked_at": "2026-09-22 21:37:32",
+ "selection_rule": "highest CIFAR-10 validation accuracy",
+ "threshold_rule": "95th percentile of unknownness on the CIFAR-10 validation split",
+ "checkpoints": {
+  "vanilla": {
+   "best_epoch": 95,
+   "best_val_acc": 0.9512
+  },
+  "gcsc": {
+   "best_epoch": 95,
+   "best_val_acc": 0.9588
+  },
+  "proser": {
+   "best_epoch": 2,
+   "best_val_acc": 0.9478
+  }
+ }
+}
