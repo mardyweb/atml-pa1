@@ -26,6 +26,8 @@
   "disc_dropout": 0.5,
   "domain_loss_weight": 1.0,
   "grl_gamma": 10.0,
+  "disc_lr_mult": 10.0,
+  "disc_input_l2norm": false,
   "separability": {
    "test_size": 0.3,
    "C": 1.0
