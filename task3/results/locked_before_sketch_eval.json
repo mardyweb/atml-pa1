@@ -1,0 +1,26 @@
+{
+ "locked_at": "2026-09-23 13:10:32",
+ "selection_rule": "best mean macro-F1 over the three source validation splits",
+ "checkpoints": {
+  "erm": {
+   "best_epoch": 13,
+   "best_mean_val_f1": 0.9542122508625229
+  },
+  "dan_dg": {
+   "best_epoch": 1,
+   "best_mean_val_f1": 0.05066996495567924
+  },
+  "sam": {
+   "best_epoch": 9,
+   "best_mean_val_f1": 0.9565175246093792
+  },
+  "dan_dg_lam0.1": {
+   "best_epoch": 5,
+   "best_mean_val_f1": 0.951085308082504
+  },
+  "dan_dg_lam10": {
+   "best_epoch": 1,
+   "best_mean_val_f1": 0.05066996495567924
+  }
+ }
+}

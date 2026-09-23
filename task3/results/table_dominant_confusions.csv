@@ -1,0 +1,22 @@
+method,true class,accuracy,most confused with,share of class
+ERM,dog,0.2849740932642487,horse,0.28886010362694303
+ERM,elephant,0.9405405405405406,person,0.021621621621621623
+ERM,giraffe,0.6772908366533864,horse,0.18326693227091634
+ERM,guitar,0.9720394736842105,elephant,0.02138157894736842
+ERM,horse,0.883578431372549,elephant,0.04779411764705882
+ERM,house,0.725,giraffe,0.175
+ERM,person,0.74375,giraffe,0.13125
+DAN-DG,dog,0.0,person,1.0
+DAN-DG,elephant,0.0,person,1.0
+DAN-DG,giraffe,0.0,person,1.0
+DAN-DG,guitar,0.0,person,1.0
+DAN-DG,horse,0.0,person,1.0
+DAN-DG,house,0.0,person,1.0
+DAN-DG,person,1.0,nothing,0.0
+SAM,dog,0.22797927461139897,elephant,0.46113989637305697
+SAM,elephant,0.9864864864864865,giraffe,0.005405405405405406
+SAM,giraffe,0.7529880478087649,elephant,0.12616201859229748
+SAM,guitar,0.9046052631578947,elephant,0.06085526315789474
+SAM,horse,0.6764705882352942,elephant,0.20710784313725492
+SAM,house,0.9,elephant,0.05
+SAM,person,0.54375,elephant,0.375
