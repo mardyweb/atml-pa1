@@ -1,4 +1,4 @@
-# atml-pa1 — Learning beyond IID: inductive biases, domain adaptation, domain generalization and open-set recognition
+# atml-pa1: Learning beyond IID: inductive biases, domain adaptation, domain generalization and open-set recognition
 
 Programming Assignment 1
 
